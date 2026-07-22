@@ -9,69 +9,106 @@
 
 <body>
 
-    <header>
-        <h1>Laine Hargarten</h1>
-        <p>Electrical Engineering | Biomedical Engineering | RF & Signal Processing</p>
-    </header>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Laine Hargarten</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am an electrical and biomedical engineer interested in signal processing,
-            communications, embedded systems, and medical imaging.
-        </p>
+    <section class="hero">
+        <h1>Laine Hargarten</h1>
+        <p class="tagline">Electrical Engineering | Biomedical Engineering | RF & Signal Processing</p>
+        <a href="#projects" class="btn">View My Work</a>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project">
-            <h3>CANX-2 Satellite Link Simulator</h3>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
             <p>
-                Developed a MATLAB-based satellite communication simulator including
-                Doppler modeling, path loss, tumbling attenuation, and SDR hardware playback.
+                I am an electrical and biomedical engineer interested in signal processing,
+                communications, embedded systems, and medical imaging.
             </p>
-        </div>
-
-        <div class="project">
-            <h3>3D Ultrasound Motor Control System</h3>
-            <p>
-                Designed embedded control software and a Qt GUI for robotic ultrasound imaging.
-            </p>
-        </div>
-
-        <div class="project">
-            <h3>Optical Coherence Elastography</h3>
-            <p>
-                Investigated mechanical wave propagation using OCT-based imaging techniques.
-            </p>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Signal Processing</li>
+                    <li>Embedded Systems</li>
+                    <li>RF Systems</li>
+                    <li>Medical Imaging</li>
+                    <li>MATLAB</li>
+                    <li>Python</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>UBC Robotics & Control Laboratory — Research Intern</li>
-            <li>Cornell University — Biomedical Engineering</li>
-            <li>Signal Processing, RF Systems, Embedded Hardware</li>
-        </ul>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>CANX-2 Satellite Link Simulator</h3>
+                    <p>
+                        Developed a MATLAB-based satellite communication simulator including
+                        Doppler modeling, path loss, tumbling attenuation, and SDR hardware playback.
+                    </p>
+                    <a href="#" class="project-link">Learn More →</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>3D Ultrasound Motor Control System</h3>
+                    <p>
+                        Designed embedded control software and a Qt GUI for robotic ultrasound imaging.
+                    </p>
+                    <a href="#" class="project-link">Learn More →</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Optical Coherence Elastography</h3>
+                    <p>
+                        Investigated mechanical wave propagation using OCT-based imaging techniques.
+                    </p>
+                    <a href="#" class="project-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your_email@example.com</p>
-        <p>
-            <a href="https://github.com/">GitHub</a>
-            <a href="https://linkedin.com/">LinkedIn</a>
-        </p>
+    <section id="experience" class="about">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="skills">
+                <h3>Professional Background</h3>
+                <ul>
+                    <li>UBC Robotics & Control Laboratory — Research Intern</li>
+                    <li>Cornell University — Biomedical Engineering</li>
+                    <li>Signal Processing, RF Systems, Embedded Hardware</li>
+                </ul>
+            </div>
+        </div>
     </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Get in touch with me for collaborations or inquiries</p>
+            <div class="contact-links">
+                <a href="mailto:your_email@example.com" class="contact-btn">Email</a>
+                <a href="https://github.com/lainelh48" class="contact-btn">GitHub</a>
+                <a href="https://linkedin.com/" class="contact-btn">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Laine Hargarten. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
